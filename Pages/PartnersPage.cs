@@ -18,7 +18,7 @@ namespace Payback.Pages
         #endregion
 
         #region Methods
-        public void ProcessPartners(IWebDriver driver)
+        public void ProcessPartners()
         {
             UtilityClass.scrolldown(driver);
             UtilityClass.scrollup(driver);
@@ -27,7 +27,7 @@ namespace Payback.Pages
 
         }
 
-        public void VerifyPartners(IWebDriver driver)
+        public void VerifyPartners()
         {
             UtilityClass.TakeScreenShot(driver);
         }

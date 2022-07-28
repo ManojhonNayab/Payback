@@ -113,13 +113,13 @@ namespace Payback.StepDefinitions
         [Then(@"Process an Partners")]
         public void ThenProcessAnPartners()
         {
-            
+            partnersPage.ProcessPartners(); 
         }
 
         [Then(@"Verify the Partners")]
         public void ThenVerifyThePartners()
         {
-           
+            partnersPage.VerifyPartners();
         }
 
     }
